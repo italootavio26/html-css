@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formatação de textos</title>
+    <style>
+        mark {
+            background-color: limegreen;
+        }
+    </style>
+    <!--o style daqui de cima faz um seletor de todos os mark's que eu tenho na linha de código, que também é CSS. então se uma parte do código ja estiver marcado com o "style" na linha de código, o comando que está em cima do head não funciona!-->
+</head>
+<body>
+    <h1>principais fromatações</h1>
+    <h2>negrito / destaque</h2>
+    <p>nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântica)</p>
+    <p>nesta frase temos um <strong>termo em negrito</strong>  usando a tag STRONG (semântico)</p>
+    <h2>itálico / ênfase</h2>
+    <p>nesta frase temos um <i>termo em itálico</i> usando a tag I (não semântica)</p>
+    <p>nesta frase temos um <em>termo em itálico</em> usando EM (semântico)</p>
+    <h2>texto marcado</h2>
+    <p>podemos criar também <mark style="background-color: rgb(56, 56, 255);">um texto marcado</mark> usando a tag MARK</p>
+    <!--esse comando escrito style dentro de mark, já é CSS-->
+    <p>e no outro parágrafo, temos <mark>outro texto marcado</mark> no final</p>
+    <h2>texto grande e pequeno</h2>
+    <p>estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> neste parágrafo </p>
+    <h2>texto deletado</h2>
+    <p>podemos marcar <del>um texto como excluido</del> para indicar que ele deve ser lido, mas não considerado</p>
+    <h2>texto inserido</h2>
+    <p>podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois</p>
+    <p>existe também o sublinhado com a tag &lt;u&gt; (não semântica)</p>
+    <h2>texto sobrescrito</h2>
+    <p>para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>texto subscrito</h2>
+    <p>para inserir coisas do tipo H<sub>2</sub>O</p>
+</body>
+</html>

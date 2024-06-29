@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradiente em CSS</title>
+    <style>
+        *{/* configurações globais das css*/
+            height: 100%;
+
+        }
+        body{/*tem as opções "to right", "to left", "to top" ( para cima ) e "to bottom" ( para baixo ). e com o comando radial-gradient você pode colocar formas, como por exemplo o circle que é utilizado no h1*/
+            background-image: linear-gradient(45deg, #4D64D8, #B46AC9, #D52E76, #EB4B4B, #FDC86C );
+            /*fica um degrade fixo na tela de código CSS*/
+            background-attachment: fixed;
+        }
+        
+        h1{ /*e com o comando radial-gradient você pode colocar formas, como por exemplo o circle que é utilizado no h1*/
+            background-image: radial-gradient(circle, #4D64D8, #B46AC9, #D52E76, #EB4B4B, #FDC86C );
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>testando gradiente</h1>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif29;
+        }
+
+        /*div > p esconde a tag p dentro da div e dentro da chave, os comando display: none faz com que não apareça a tag p*/
+        div > p {
+            display: none;
+        }
+
+        /*quando eu passar o mouse em cima do parágrafo que está dentro ele vai dar display block, ou seja, ele vai aparecer*/
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>
+        passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>fim do exemplo</p>
+</body>
+</html>
